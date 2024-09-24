@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createDonor, deleteDonor, getAllDonor, updateDonor, uploadImageDonor } from "../controllers/Donor.controller.js";
+import { createDonor, deleteDonor, getAllDonor, updateDonor, uploadImageDonor } from "../controllers/donor.controller.js"
 import { multerUpload } from "../config/multer.js";
 
 export const donorRouter = Router()

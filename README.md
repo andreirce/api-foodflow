@@ -40,8 +40,8 @@ Link Deploy: https://api-foodflow.onrender.com
 ## Project Settings🔧 
 
 ### Prerequisite
-* Node.js instalado
-* npm (Node Package Manager) ou yarn
+* Node.js installed
+* npm (Node Package Manager) or yarn
 
 ### Installation
 1. Clone the repo

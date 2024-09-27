@@ -10,7 +10,14 @@ export const database = new Sequelize(
     {
         host: process.env.DB_HOST,
         dialect: process.env.DB_DIALECT,
-        port: process.env.DB_PORT || 3306,
+        port: process.env.DB_PORT || 5432,
+        logging: false, 
+        dialectOptions: {
+            ssl: {
+                require: true, 
+                rejectUnauthorized: false 
+            }
+        }
     }
 );
 

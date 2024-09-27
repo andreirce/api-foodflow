@@ -1,6 +1,7 @@
 import express from "express"
 import cors from "cors"
 import path from "path"
+import "./config/association.js"
 import { userRouter } from "./routes/user.routes.js"
 import { requestRouter } from "./routes/request.routes.js"
 import { donorRouter } from "./routes/donor.routes.js"
@@ -8,6 +9,7 @@ import { donationRouter } from "./routes/donation.routes.js"
 import { addressRouter } from "./routes/address.routes.js"
 import { fileURLToPath } from "url"
 import { opinionRouter } from "./routes/opinion.routes.js"
+
 
 const app = express()
 const port = 4000
